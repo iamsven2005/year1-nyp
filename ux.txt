@@ -1,0 +1,966 @@
+
+show example of webpage: what are somethings you will change and why that particular principle is used?
+interpreting (what are the users needs) vs ( business needs), most don't align
+what is the business goal
+UX Components
+￮ Field research
+￮ Face to face interviewing
+￮ Creation of user tests
+￮ Gathering and organizing statistics
+￮ Creating personas
+￮ Product design
+￮ Interactive design
+￮ Visual design
+￮ Feature writing
+￮ Requirement writing
+￮ Graphic arts
+￮ Taxonomy creation
+￮ Terminology creation
+￮ Copywriting
+￮ Presenting and speaking
+￮ Working closely with programmers
+￮ Brainstorm coordination
+￮ Design culture evangelism
+
+
+User Experience (UX)
+ Encompasses all aspects of the end-user's interaction with the company, its services, and its products.
+ Refers to a person's emotions and attitudes about using a particular product, system or service. 
+It includes the practical, experiential, affective, meaningful and valuable aspects of human–computer 
+interaction and product ownership. 
+
+Usability
+ The extent to which a product can be used by specified users to achieve specified goals in a specified 
+context of use, with these consideration (ISO 9241-11)
+1. Effectiveness - able to complete task
+2. Efficiency - optimal workflow
+3. Satisfaction - Easy to learn, meet expectation
+
+Goals of Usability
+1. Effectiveness
+￮ It refers to the accuracy and completeness with which specified users can achieve specified goals in particular environments
+2. Efficiency
+￮ It refers to the resources (i.e. time, effort, etc) used in relation to the accuracy and completeness of goals achieved
+3. Satisfaction
+￮ It is the comfort and acceptability of the work system to it users and other people affected by its use.
+
+Other Goals of Usability
+4. Learnability
+￮ How easy is it for users to accomplish basic task the first time they encounter the design?
+5. Memorability
+￮ When users return to the design after a period of not using it, how easily can they re-establish proficiency?
+6. Error Prevention
+￮ How many errors do users make, how severe are these errors,
+and how easily can they recover from the errors?
+
+Usability versus UX
+ Usability
+ Can a task be completed effectively, efficiently and satisfactorily?
+ User Experience (UX)
+ Is the user delighted after completing a task?
+
+User Experience Design
+(UXD)
+ The creation and synchronization of the elements that
+affect users’ experience with a particular company, with
+the intent of influencing their perceptions and behaviour
+ Touch
+ Hear
+ Smell
+ People
+ Digital interfaces
+
+Interaction Design
+ Interaction design is about designing interactive
+products to support the way people communicate and interact in their everyday and working lives
+
+Scope of UX is growing
+ Growing social media influence
+ Facebook
+ Twitter
+ Reviews and social influencers can affect the experience of using a product or service
+ Availability of big data provides the start and means to improve user experience
+ Fast changing technology such as Virtual Reality are pushing UX in different areas
+
+Key to a good UX design
+ Users are the centre of it all
+ Understand the needs of the users
+ Clear business objective
+ Clear project goals
+ Challenges: each project will have limited resources (budget, time, staff) and
+a balance between the business objective with user needs must
+be met via a feasible and clear project goal
+
+UX Designer | Developer
+| Analyst | Researcher
+ In some projects and companies, the task of
+formulating the UX design and implementation lies
+solely on a one-person team
+ With such as large scope of areas and UX
+components to handle, it is hard to imagine a single
+person completing all the relevant work
+ Very often, various roles are directly or indirectly
+involved
+
+ Researcher
+ Information architect
+ Engineer
+ Designer
+ Writer
+ Projectmanager
+ Users
+
+Common Mistakes in User Research
+ Asking the wrong people for feedback
+ Leading the user – asking leading questions
+ Applying the wrong research method
+
+Basic steps in user research
+ Define your primary user group
+ Describe the main type of users you are designing for, in
+order to focus efforts in recruiting users for research
+ Plan for user involvement
+ Choose one or more techniques for involving user groups
+in research, based on the needs of project
+ Conduct the research
+ Basic techniques include interviews, surveys and focus groups
+
+Defining the primary user group
+ Create an initial definition
+ Based on knowledge of stakeholders
+ Create a list of attributes based on sources available:
+ Documents explaining company strategies, goals, competitive information,
+marketing strategies and business plans
+ Market segmentation of current customers and other demographic data
+gathered by the marketing department
+ Previously conducted user research
+ Surveys
+ Customer service reports
+ Get perspective from different people
+
+Defining the primary user group
+1. Primary goal
+2. Roles
+3. Demographics
+4. Experience
+5. Organisational attributes
+Prioritize the attributes to decide which of the listed attributes have
+the greatest influence/impact on user’s goal and behaviour
+
+User Interview
+ It is a valuable method for kicking off exploratory research that allow
+you to focus on the problems that user raise during the course of conversation
+ Advantage:
+ Allows you to explore general attitudes, look deeper into
+motivators and drivers, and explore workflows
+ Disadvantage:
+ Humans are usually bad at self-reporting, and when
+challenged, often make up stuff on the spot
+
+Contextual Inquiry
+ An unstructured interview that occurs in the context in which your product or
+service will be used. Observe how the user work and question them when you
+need to clarify details
+ Advantage:
+ It is often used to uncover unmet needs or hidden desires; It is also a
+good way to discover how people think and talk about a given topic
+ Disadvantages:
+ Required a huge amount of time spent at the context of use
+ You can only see what’s happening during the session
+
+Contextual Inquiry
+ Clarify what is the most important context of use for your project
+ Consider how many interviews per day you can undertake when travel is
+involved to conduct these sessions
+ Treat people with respect and avoid passing judgement on the way users
+perform tasks
+ It’s fine to be curious and probe for more information.
+ Learn to think on your feet and follow the natural flow of the situation
+ Allow user to go off on a tangent; it can provide the best insights into users’
+private worlds
+
+Focus Groups
+ Good technique for several purposes:
+ Hear variety of stories
+ Getting opinions and preference
+ Understanding relevant differences in experiences
+ Generating ideas
+ Understanding multiple points of a collaborative process
+ However, in focus groups,
+ What people say do not necessary translate into actual behaviour!
+ Uncover the truth using Usability Testing
+ Verify design or solution via observation of users
+
+Card Sorting
+ In card sorting activity, participants working either individually or in
+small groups are given items printed on cards and are asked to
+put them into groups that make sense to them.
+ Either they group them into categories that are provided
+beforehand (called a closed sort) or they make their own groups
+and title each group themselves (called an open sort)
+ At the end of the round of card sorting, you should be able to see
+common patterns emerge in how people are sorting the items, as
+well as common areas of confusion or disagreement
+
+Combining Methods for Best Effect
+ Use at least two or three methods
+ Review the results obtained across methods and observe themes, overlaps, or contradictions
+ Determine the strongest insights from each method, resulting in a far richer understanding of your users
+
+Affinity Mapping
+It allows you to:
+ synthesise large amounts of data by finding relationships between ideas
+ get an insight of the problem during the process of creating
+relationships with the detailed information
+ group, review, and transform the findings as you continue analysing the data
+ refine the information and remove noise
+
+Modelling the User
+ Persona: user models
+ Based on research
+ Represented as individual people but represent groups of users
+ Must have motivations/goals
+ Can also represent non-users (negative persona)
+A Design Tool“Will my persona use this feature?”
+
+Personas
+The purpose of personas is to create reliable and realistic
+representations of your key audience segments for reference.
+Effective personas:
+ Represent a major user group for your website
+ Express and focus on the major needs and expectations of the most important user groups
+ Give a clear picture of the user's expectations and how they're likely to use the site
+ Aid in uncovering universal features and functionality
+ Describe real people with backgrounds, goals, and values
+
+Different Mapping Methods
+Helps to capture, organise and visualise findings/insights from user research
+ Empathy Mapping – tool to articulate what we know about a
+particular type of user. It helps to create a shared
+understanding and also aids in decision making.
+ Customer Journey Mapping – focuses on a specific customer’s interaction with 
+a product or service, and typically includes his experience.
+ Others: experience mapping, service blueprinting
+
+Task Analysis
+It analyses what a user is required to do in terms of actions and/or cognitive
+processes to achieve a task
+ What your users’ goals are; what they are trying to achieve
+ What users actually do to achieve those goals
+ What experiences (personal, social, and cultural) users bring to the tasks
+ How users are influenced by their physical environment
+ How users’ previous knowledge and experience influence:
+ How they think about their work
+ The workflow they follow to perform their tasks
+
+Goals
+• Goals are what people want to accomplish and
+form the motivation for visiting a (shop) website
+• Technology independent
+Tasks
+• Tasks are the mechanism people use to accomplish
+goals
+• High-level descriptions
+Actions
+• Actions are sub-components of tasks
+• Individual steps that compose a task
+
+Business intention and goal
+ Sell a product
+ Provide a service
+ Generate leads
+ Demonstrate capability
+ Establish credentials
+
+//////
+Meeting users needs
+/////
+
+
+
+Users have higher expectation and less tolerance for issues because
+there are generally a lot of easily available alternatives
+Meeting the users needs and business goals, using available design
+techniques and technology IS the expected norm
+
+--Gender
+ Male
+ Want proof
+ Desire visual which displays individual’s ambitions and future
+ Make purchases for current needs
+ Female
+ Prefer neat and clean design
+ Looking for connections
+ Drawn in by stories and content
+ Images of women (reminded of herself)
+ Looking for value now and over time
+ Like to share with others
+
+--Age
+ Elderly
+ Require larger font size (at least 12 point)
+ Increase size and white space around links and buttons
+ More obvious, easier to click
+ Uncomfortable with changes
+ Helped by more detailed instructions
+ Example: Enter name of cardholder, as printed on a card
+ Young
+ Map-style navigation help young kids
+ List-style navigation is better for older kids
+
+--Culture
+ Different cultures have shown to respond differently to similar web characteristics
+ Power distance
+ Individualistic versus Collectivist societies
+ Uncertainty avoidance
+ Long-versus short term orientation
+ Masculinity versus Femininity
+ A culture like China scores very highly on Masculinity and Power Distance but very
+low on Individuality and Long Term Orientation. What this means is that Chinese
+web users may respond to:
+ Photography of groups of people not individuals
+ Prefer male subjects rather than females
+ May be less inclined to look for a long term relationship with a brand
+ Consequently less likely to become a registered user and is happy to cede authority
+to the web owner (e.g. by being trusting and perhaps less conscious of security)
+
+--image
+Poor quality images reduce trust
+Stock photos
+ Staged look can reduce credibility too.
+ May look beautiful but ineffective
+Real and relevant images improve conversions
+ Real images over stock photos
+ Improve conversions by 161%
+Stretched image
+ Design did not handle different display width
+80% of viewing time above fold
+ Eye fixation times aggregated across 400+ different web pages
+ Stripes indicate fold on 1024 x 768 monitor
+ People do scroll, just that top fold gets more attention
+
+Principle of Least Effort
+ User will choose the least demanding course of action
+ Effort is required for
+ Attention
+ Interaction
+ Reading
+ Thinking
+
+Short Term Memory
+ Information is passed from the sensory memory into short-term
+memory via the process of attention (the cognitive process of
+selectively concentrating on one aspect of the environment while
+ignoring other things)
+ If information are flashing by, there is increased cognitive processing
+required by the user
+
+Selective Attention
+ Focus in one area means less attention elsewhere
+ Visual perception can be incomplete and inaccurate
+ Motivations changes our perceptions
+ See what we wish to see
+
+ Have predictable interface
+ Forgiving to error and misinterpretation
+ Keep options to only the necessary
+
+The Halo effect
+ One trait of the design is used to make overall judgement of the design
+ For example
+ a beautifully designed website will tend to receive
+favourable judgment and higher tolerance to anomalies
+ A site will poor internal search results can draw the bias that the site is poorly done
+
+Business Need A:
+
+Encourage self-service during delivery (support benefit)
+Orders can be tracked by entering a tracking code online
+
+Business Need B: 
+
+Show innovation in efficient delivery (competitive benefit)
+Users can track their package by GPS locations of delivery trucks or airplanes
+
+Business Need C: 
+Encourage reordering and self-service (sales and support benefit)
+Users can view all past orders made in the last 365 days
+
+User Need X: 
+Be able to reschedule delivery
+Users can submit an online request form to reschedule a delivery
+
+User Need Y: 
+Be able to monitor status of delivery
+Users can view the status of their delivery on the "Orders" page. 
+
+User Need Z: 
+Be able to retrieve past orders 
+Users can view all past orders made in the last 365 days
+
+Realize that for each need, there can be a variety of ideas and solutions.
+Resources are limited and must be targeted at the more important needs.
+Selecting and developing ideas into solution should consider the priority of various needs.
+
+//////
+prototype
+//////
+Analog (paper, whiteboard) 
+Digital (PowerPoint, Visio, HTML, prototyping tools)
+The outcome of a prototyping process is actionable feedback.
+Prototypes help to convey the ideas or concept to the relevant stakeholders and users. 
+Getting actionable feedback allow the ideas or concept to be improved. 
+
+
+Low fidelity prototype
+–
+Just a rough sketch - not close to final product. Incomplete but with characteristics of the final product.
+require less development time
+usually static
+created for discussion, or even documentation
+prepared to be thrown away
+
+
+High fidelity prototype
+–
+simulate final product or system
+can be interactive
+usually time-consuming to develop
+may give wrong impression that project is almost complete
+
+
+Horizontal prototype
+–
+Focus on top level functionality only. 
+For confirming scope of system and user interface.
+Help develop estimate of development cost, time and effort.
+Example: A prototype customer management system with only navigational links to the overview page, 
+customer management form (with limited user interactions) and analytics pages, without linking to any database.
+
+
+Vertical prototype
+–
+Focus on functionalities to one set of activities.
+
+For refining database design
+Obtain information on data volumes, system needs
+Investigate complex scenarios by implementing actual system functionality
+Example: A prototype form on a customer management system that allows the retrieval, editing, saving, 
+and deleting of records from the company database.
+
+
+Evolutionary prototype
+–
+Evolves gradually into the final product based on users’ inputs
+
+
+Revolutionary prototype
+–
+Throwaway: for the purpose of getting specifications right, then discarded.
+
+
+Wireframe
+Blueprint of a website or mobile application
+
+For clients to visualize concepts
+For developers to have a clear, interactive and visual direction
+For users to do usability testing
+Depicts page layout- Focus on what the site or application does, not what it looks like
+Early sample, model, approximation or release of a system or product build for the purpose of testing, 
+learning and improving ideas or concepts.
+
+
+Pen and Paper
+The use of pen and paper to visualize and communicate digital interface is very common.
+Single-page wireframes with simple details of titles, and navigational menus may be sufficient for certain 
+tasks within a usability test. 
+More elaborate paper prototypes are also possible. Check out the videos below.
+
+https://www.adobe.com/sg/products/xd/learn/get-started-xd-design.html
+
+//////
+Visual
+//////
+
+-Visual Hierarchy
+ It reflects the importance of each area to the screen or page,
+making it easier for users to find particular pieces of information.
+ Pages with a clear visual hierarchy have 3 traits
+
+Things are “nested” visually to show what’s part of what.
+Things that are related logically are also related visually.
+The more important something is, the more prominent it is.
+
+-Gestalt Principles
+--Proximity
+ People tend to perceive items that are located close together as being related.
+Design Tip: Group related content items close together. Separate unrelated items.
+
+--Similarity
+ If two things are the same shape, size,colour, or orientation, then viewers will
+also associate them with each other.
+Design Tip:
+ Similar appearance equates to similar function.
+ Contrast can draw attention to items on your page and reinforce the content
+hierarchy by creating a visual hierarchy, i.e. text that is large and bold will be
+perceived as being more important than smaller text
+
+--Continuity (Alignment)
+ Our eyes want to see continuous lines and curves formed by the alignment of smaller elements.
+
+Design Tip: Align items (things positioned along a virtual or invisible
+line) that are related or have equal importance.
+
+Continuity: Visually align page elements, either vertically or horizontally
+
+
+-Gutenberg Diagram
+Design Tip:
+ Place buttons and calls to action in bottom right instead of bottom left, as this is the
+place where the visitor’s glance is likely to align.
+
+Note: Gutenberg diagram is more likely to work on pages
+which have more a balanced distribution of content. If
+sections of your page have strong highlights through high
+contrast and bold typography, then those areas would
+likely attract more attention and so will direct the way a
+user scans the page.
+
+-Colours
+ Able to invoke strong perception and emotion
+ Consistently used to encourage trust or even feeling of hunger to increase
+conversions or sales
+ Perception differs for different culture
+
+White  Clean, Innocence, Neutrality
+Black  Authority, Power, Evil
+Grey  Neutral, Practical
+Red  Love, Energy, Warmth, Intensity
+Orange  Enthusiasm, Energy, Change, Excitement
+Yellow  Happiness, Optimism, Hunger, Cheery
+Green  Natural, growth, money, harmony, calmness
+Blue  Cold, Focused, Wisdom, Calmness
+Purple  Royalty, Sophistication, Exotic, Spiritual, Mystery
+Brown  Stable, Reliable, Organic, SecurityVarious colour schemes based on rules available
+https://color.adobe.com/create/color-wheel/
+
+Typography
+ Typography is the art and technique of arranging type to make
+written language legible, readable, and appealing when displayed.
+ Font is a type in a particular size and weight
+ Good choices can enhance the purpose and intent of a design
+
+Typography - Fonts
+-Serif fonts - Letters and symbols with semi structural details or finishing flourishes at the 
+ends of some strokes
+ Times New Roman
+ Constantia
+-Sans serif fonts - Letters and symbols without the details or flourishes
+ Arial
+ Verdana
+
+ The usage of sans serif is dominant in the current age of digital media
+ Sans serif are found to be better suited for
+ Low-resolution display
+ New reader (such as children)
+ The details from serif make the individual letters more distinctive and easier to be recognize.
+ However, these are rendered as blurry shapes on low-resolution display
+ Ensure contrast
+ Dark text on light background is more comfortable for the eyes
+than light text on dark background
+ Pattern or background with image decreases readability
+
+Whitespace
+ The spacing between different elements on a page/design
+ Adequate whitespace, or negative space, promotes the
+perception that content are well organized
+ Promotes perception of sophistication
+ Promote focus on key content
+ Increases readability
+ Space doesn’t have to be white
+
+
+//////
+Principles of Interaction Design
+//////
+
+-Visibility
+ Solving one visibility problem could cause another if it is not handled with care 
+Problems arise also when we cannot “see” how to use a device
+ Visible knobs, dials and buttons have been replaced by invisible ambiguous “active zones”
+
+-Feedback
+The information the system provides to a user indicated the status of their action
+ Can be audible or visual
+ Cursor icon changes is a sample of visual feedback.
+ The click sound that we hear when we press down on a mouse button is a sample of audible
+
+Time delays in application responses can cause wrong feedback. Create some 
+strategy that will notify the user the current status of their action
+
+Whenever direct manipulation is supported, the feedback should
+exhibit real-world properties, such as momentum and friction.
+
+-mapping
+It is the relationship between a control, the thing it affects, and the
+outcome that results when the controls is operated.
+ Natural mapping is the strong association of the control to the resulting actions.
+
+-affordance
+It is a visual attribute of an object or control that gives the user clues as to
+how the object or control can be used or operated.
+ For example, we know that buttons are for pushing, knobs are for turning and switches are for flicking.
+
+For a door that opens only one way, it should have:
+Push plate on one side, Pull bar on the other
+
+-Consistency
+It means doing the same things the same way.
+ It creates comfort among regular users.
+ Programmers and designers must come to an
+agreement on the “looks” before development.
+
+--aesthetic Style and appearance is repeated to enhance recognition, communicates
+membership and sets an emotional tone
+
+--functional
+Its meaning and action are consistent to improve learnability and understanding
+
+1. Determine style and operation conventions as soon as the functional requirements are understood.
+2. Create a Style Guide
+3. Distribute the Style Guide to everyone on the development team and make sure they follow it!
+4. Website designers and developers can take advantage of cascading style sheets to specify display elements.
+
+-constraints
+ It prevents invalid data from being entered and 
+prevent invalid actions from being performed.
+ Restrict the kind of interaction that can take place
+ Reduce the chance of error
+Can also work to focus user’s attention to needed task
+
+
+
+/////
+Navigation
+/////
+
+
+ Gives users something to hold on to
+-It gives users handrails to hold on to- to make them feel grounded.
+ Tells users what is here
+-By making the hierarchy visible, it tell users what the site contains.
+ Tells users how to use the site
+-It tells users implicitly where to begin and what their options are.
+ Gives users confidence in the people who built it
+-Clear, well-thought-out navigation is one of the best opportunities a site has to create a good impression.
+
+-Conventions
+Putting navigation in a standard place lets users locate them quickly, with a minimum effort.
+ Standardizing their appearance makes it easy to distinguish them from everything else.
+
+-Persistent Navigation
+ It describes the set of navigation elements that appear on every
+page of a site.
+ It provides a consistent look that gives users instant confirmation
+that they are still in the same site.
+
+--The Relationship between then organisation that is asking the questions
+and the person who is answering
+
+ Explain why you’re asking -Rewards
+ The fewer questions, the better -Check whether org already holds the information
+ Ask once only -Avoid requiring users to re-enter their details (after they encounter errors)
+
+The Relationship between the organisation that is
+asking the questions and the person who is answering
+
+
+--The Conversation of the form comes from the questions that it asks, any other
+instructions, and the way the form is arranged into topics
+
+ Supporting user inputs -Smart defaults,Choosing the right controls
+ Content Grouping -Helps to organise forms
+ Progress indicators -Esp. when forms are long
+Also, clearly communicate that submission is successful
+
+The Conversation of the form comes from the questions that it 
+asks, any other instructions, and the way the form is arranged into topics
+
+--The Appearance of the form is the way that it looks: the arrangement of text,
+input areas such as fields and graphics and the use of colours
+
+ Help & Tips-Useful when asking for unfamiliar data
+-Also helps prevent errors and Keep to minimal
+ Be gentle with Errors
+-Indicate where the errors are
+-Meaningful error messages
+-Provide clear resolution in as few steps as possible
+
+ If typing the answer is more natural, then go for a type-in box
+ If users are likely to make mistakes when typing, then opt for
+something they can click
+ If there are a lot of options, using a drop-down may be best. But first
+consider if question can be redesigned.
+ If users are able to select more than one option  checkboxes
+ If the users need to see the options to understand the question, then
+radio button or checkboxes require less effort
+
+-Organise the form
+-Progress Indicators
+-Indicate where the errors are
+
+https://www.reddit.com/r/webdev/comments/nm6wcl/18_cards_of_how_to_design_web_forms/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+
+
+<here>
+whats wrong with the error message or form
+what is wrong,or what can apply principles
+show example of webpage: what are somethings you will change and why that particular principle is used?
+interpreting (what are the users needs) vs ( business needs), most don't align
+what is the business goal
+/////
+Heuristic Evaluation
+/////
+
+
+A detailed evaluation of a system by interface design specialists to identify problems
+
+Advantages
+• Easy to do
+• Relatively low cost
+• Does not waste user’s time
+
+Disadvantages
+• Evaluators must possess interface design expertise
+• Evaluators may not possess an adequate understanding of the tasks and user communities
+• Difficult to:
+• Identify system wide structural problems
+• Uncover missing exits and interface elements
+• Identify most important of all identified problems
+• Does not provide systematic way to generate solutions to problems
+
+A ‘heuristic’ is basically a measure
+-The most commonly-used heuristics are relate to
+ Navigation
+ Help and support
+ Workflow support
+ Error handling
+ Consistency
+ Functionality
+ Control
+ Visual clarity
+ Language
+
+Jakob Nielsen’s Ten Usability Heuristics
+1. Visibility of system status
+-The system should always keep users informed about what is going on, through
+appropriate feedback within reasonable time.
+
+Progress message and indicator shows while the application loads
+A feedback message is displayed when an action is performed
+
+2. Match between system and the real world
+The system should speak the users' language, with words, phrases and
+concepts familiar to the user, rather than system-oriented terms.
+Follow real-world conventions, making information appear in a
+natural and logical order.
+
+Organized as a library that contains your media library:
+music, movies, shows, audiobooks.
+
+The icons used are familiar to the users and follow the real-world conventions.
+
+3. User control and freedom
+Users often choose system functions by mistake and will need a clearly marked
+"emergency exit" to leave the unwanted state without having to go through an
+extended dialogue. Support undo and redo.
+
+Search is easy to open, enter info, execute or cancel.
+Clearly marks where the user is and where they 
+can go by showing the selection in each menu
+
+4. Consistency and standards
+Users should not have to wonder whether different words, situations, or actions mean
+the same thing. Follow platform conventions.
+When Gmail was designed, they based the organizational folders on the same ones used
+in client email applications:
+Inbox, Drafts, Sent Mail.
+
+Word, Excel, and PowerPoint all use the same style toolbar with the same primary menu
+Home, Insert, Page Layout...
+Consistency results in efficiency and perceived intuitiveness.
+
+5. Error prevention
+ Even better than good error messages is a careful design
+which prevents a problem from occurring in the first place.
+ Either eliminate error-prone conditions or check for them
+and present users with a confirmation option before they commit to the action.
+
+Disables the update button after it is clicked, so the person cannot
+update the post twice by accident. Set constraint on calendar or ticket
+fields can prevent user from selecting options that are not supported.
+
+6. Recognition rather than recall
+ Minimize the user's memory load by making objects, actions, and options
+visible. The user should not have to remember information from one part of
+the dialogue to another.
+ Instructions for use of the system should 
+be visible or easily retrievable whenever appropriate.
+
+Let the user know if he/she has logged in. Provide visible cue on the number 
+of items in the cart. The search result page retain the keywords user entered 
+to help user remember and associate with the search result.
+
+7. Flexibility and efficiency of use
+ Accelerators 
+-- unseen by the novice user 
+-- may often speed up the interaction for the expert user such
+that the system can cater to both inexperienced and experienced
+users.
+ Allow users to tailor frequent actions
+List of keyboard shortcuts and accelerators
+
+Provide hints to assist new users to perform search
+efficiently. Enable experience users to perform advanced search.
+
+8. Aesthetic and minimalist design
+Dialogues should not contain information which is irrelevant or rarely needed. 
+Every extra unit of information in a dialogue competes with the relevant units 
+of information and diminishes their relative visibility.
+
+9. Help users recognize, diagnose, and recover from errors
+Error messages should be expressed in plain language (no codes), precisely 
+indicate the problem, and constructively suggest a solution.
+
+Provides immediate feedback with specific instructions
+Uses a funny image and copy, but provides viable alternatives (article
+listings and blog link) and a course of action (report it)
+
+10. Help and documentation
+Even though it is better if the system can be used without documentation, it may
+be necessary to provide help and documentation. Any such information should be 
+easy to search, focused on the user's task, list concrete steps to be carried 
+out, and not be too large.
+
+Help tips are displayed on hover, answering the most likely questions
+about a field or instructions
+
+Contextual help (this is an example of help in the ‘Collages’ module) tips in
+Picnik are clear and easy to navigate
+
+Guidelines:
+1. Use 3 to 5 expert evaluators
+2. Choose knowledgeable people
+￮ Familiar with the project situation
+￮ Possessing a long-term relationship with the organization
+￮ Experienced
+
+Preparing the session
+1. Select evaluators
+2. Prepare or assemble:
+• Project Overview
+• Checklist of heuristics
+3. Provide briefing to evaluators to:
+• Review the purpose of the evaluation session
+• Preview the evaluation process
+• Present the project overview and heuristics
+• Answer any evaluator questions
+• Provide any special evaluator training that may be necessary
+
+Conducting the session
+1. Have each evaluator review the system alone
+2. The evaluator should:
+ Establish own process or method of review
+ Provide usage scenarios, if necessary
+ Compare findings with usability principles list
+ Identify any other relevant problems / issues
+ Make at least two passes through the system
+3. Detected problems should be related to the specific
+heuristics they violate
+4. Comments are recorded either:
+ By evaluator
+ By observer
+ The observer may answer questions and provide hints
+5. Restrict the length of the session to 2 hours
+
+After the session
+1. Hold a debriefing session including observers and design
+team members where:
+ Each evaluator presents problems detected and the heuristic it violated
+ A composite problem listing is assembled
+ Design suggestions for improving the problematic aspects of system are discussed
+2. After the debriefing session:
+ Generate a composite list of violations as a ratings form
+ Request evaluators to assign severity ratings to each violation
+ Analyse results and establish a program to correct violations and deficiencies
+
+/////
+Feedback and help
+/////
+
+When user does enters wrong data or does something
+incorrectly, your system has to inform the user about it.
+What is the purpose of a feedback message?
+User must know What is wrong and How to correct it
+
+-Poor Feedback Messages
+ Ambiguous – no head no tail, confuse users
+ Useless, irrelevant – Does not guide users what they have
+done wrong and how to rectify the situation.
+ Incorrect - Indicating error at line 5 when your error is at line 430
+This happens because system developer fails to anticipate user’s needs and capabilities
+
+-WRITE EFFECTIVE MESSAGES
+ Consider the need for the message
+ Be as specific and precise as possible
+ Be constructive: Indicate what the user needs to do
+ Use a positive tone: Avoid condemnation (e.g. words like ILLEGAL, ERROR, INVALID, OR BAD)
+ Choose user-centered phrasing
+ focus on actions that the user can do
+ Use the appropriate title
+ The title of the message box should be the name of the application that
+produced the message. By doing so, when user is in multitasking, he will
+instantly know which program caused the error.
+
+-Consider the Need
+Before you decide to interrupt the user and/or demand a response,
+make sure you have done your part to prevent users from making
+potential mistakes – prevention e.g..
+ Number fields only accept numbers
+ Provide lists wherever possible
+ Provide default values wherever possible which user can override if necessary
+ Use aided entry (input mask) e.g. Tel: (___) ____-____
+ Allow review, change or undo before action is done, etc. e.g.
+Are you sure you want to delete this?
+
+-Specificity
+ Messages that are too general make it difficult for the
+novice to know what has gone wrong.
+
+SYNTAX ERROR -Unmatched left parenthesis
+ILLEGAL ENTRY -Disable the entry in the first place
+INVALID DATA -Day ranges from 1 to 31
+BAD FILE NAME -File names must begin with an alphabet
+
+-Constructive guidance
+ Provide a constructive correction message
+ What problem was detected
+ What items are in error
+ What corrective action is necessary
+ Phrase the message as a question that can be answered with a simple ‘Yes’ or ‘No’.
+
+-How to provide help online
+ General Online Help page/FAQ
+ Context-sensitive/contextual help
+ Provides help at a specific point in the state of the software for the situation
+associated with that state(i.e. context). This means that it contains the smallest
+possible chunk of information the user needs to understand at that point, and it
+isn’t meant to be read as a whole as opposed to user manuals
+ Embedded Help
+ A type of context-sensitive help, that goes beyond basic information and
+explanations by either detecting a user's need for help or offering a guided tour
+right on the interface.
+ Particularly useful for first-time users
+ Online chat (AI or real humans)
+ Guidelines: https://www.nngroup.com/articles/chat-ux/

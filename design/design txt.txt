@@ -1,0 +1,37 @@
+Pot of gold: Highlight an opportunity (often financial) that your audience hasn’t spotted on the horizon.
+Ticking time bomb: In contrast, highlight a significant, impending threat that your audience isn’t prepared for.
+Boiling frog: Highlight a threat that could creep up on your clients
+ (the – rather gruesome – theory being that if you drop a frog into boiling water it will jump straight out, 
+but if you heat it slowly it will not sense the change in temperature).
+ Our ‘Cost Boomerang’ campaign for KPMG is a good example of the frog in action!
+
+Must be effective, tells a story, from top to bottom from left to right preferably zig zag. Big words at the start, small words with pics at end
+Create predefined journey with visual cues like arrows. Use colors for guiding and highlighting while havig a general color scale suitable for the topic.
+Make it have a perspective or new angle.
+Creat value for the viewer, allow them to join or be directly impacted
+be well structured
+send one key message
+visually appealing, try not to make it too long
+be accurate and well researched, make it simple, types include mixed charts, informational lists, timeline
+how-tos, processes, comparison, location, photographic, hierarchical, visualized numbers, anatomical, visual resume, single chart
+avoid using words instead of visuals, make it clear, limit the fonts and make it match, choose the right colors, create negative space
+place element arbitarily, align apropriately, creat contrast, scale to size, avoid hard to read text, be consistent, use clear images
+color overlay helps to highlight
+use empathy to engage, observe and immerse
+prototyping, learn explore, fail quickly and cheaply (might wan to consider using chalk packaging for this) 
+\
+Project 1
+
+<script type="text/javascript">
+<!-- HIDE FROM INCOMPATIBLE BROWSERS
+document.write("<h1>Your form has been submitted!</h1><br><h2>You entered the following data:</h2>");
+var formData = location.search;
+formData = formData.substring(1, formData.length);
+while (formData.indexOf("+") != -1) {
+	formData = formData.replace("+", " ");
+}
+formData = unescape(formData);
+var formArray = formData.split("&");
+for (var i=0; i < formArray.length; ++i) {
+	document.writeln(formArray[i] + "<br />");
+}
