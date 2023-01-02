@@ -1,0 +1,54 @@
+Q1
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        value = input("What is the score? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        if 50 <= int(value):
+            print("pass")
+Q2
+while True:
+    try:
+        value = input("What is the score? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        if 4<= float(value):
+            print("A")
+        else:
+            if 3 <= float(value):
+                print("B")
+            else:
+                if 4 <= float(value):
+                    print("C")
+                else:
+                    print("D")
+Q3
+while True:
+    try:
+        value = input("What is the age? ")
+        val = input("What is the day?(From 1 to 7,1 being monday)")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        if int(val) >= 6:
+            print("You have to pay $10.00 for the ticket.")
+        else:
+         if int(value) >= 65:
+            print("Enter age: ", value)
+            print("You have to pay $5.50 for the ticket.")
+         else:
+            if int(value) <= 16:
+                print("Enter age: ", value)
+                print("You have to pay $7.50 for the ticket.")
+            else:
+                print("Enter age: ",value)
+                print("You have to pay $10.00 for the ticket.")
+                if int(val) >= 6:
+                    print("You have to pay $10.00 for the ticket.")

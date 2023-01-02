@@ -1,0 +1,93 @@
+The internet is a worldwide collection of networks that links millions of businesses, government agencies, educational institutions, and individuals
+Known as the information highway, www researches, sets and maintains rules for the web.
+A server is a special computer directly connected to the internet and webpages are the servers harddrive
+Every server has its IP address and helps to find other servers, everything on the internet has an IP address
+Individual computers are called clients and connected to the internet by an internet service provider.
+Computers break information into packets
+IP adapters and routers help to ensure information doesn't end up in the wrong place. Routers are set up at intersections.
+Each time information passes through a router, a new IP is added until it reaches the server.
+Web 1.0: Provides the ability to make changes to the content, entering product reviews, sharing experiences, uploading videos, 
+provides the ability to link with other users with different devices
+web2.0: can both contribute and receive information, more dual way communication.
+web3.0: makes searching tasks faster and easier, makes searches more personalized, acts as a personal assistant. The more use, the better response.
+Url: uniform resource locator,(protocol)(domain name)(path)(the resource)
+HTTPS: hypertext transfer protocol secure, fetch resources from a webserver.
+a client gets the URL, sends a request to the web server, receives a response, and interprets the display
+a server listens for the request, finds the resource required, sends the response
+A website is a group of interlinked and well-structured web pages
+register a domain name by registar, host a website, link both through DNS
+A static website consists of static web pages that are requested by the web client with no processing, changed manually.NYP
+A Dynamic website consists of dynamic web pages, of which the content is generated dynamically when requested, auto change.Straits times
+Web applications involve both front and backend processing, limited in function and accessed through web page.Uses more languages and framework. Lazada
+HTML:
+<!DOCTYPE html>
+  <html>
+  <head>
+         <title>This is my first web page</title>
+  </head>
+  <body>
+         <p>My web content goes here.</p>
+  </body>
+  </html>
+<p></p> paragraph
+<div></div>nested
+<img src="image.jpg"> must be in same file.
+<hr> horizontal line
+<!--comments-->
+<br> break
+CSS:
+JS:
+HTML DOM:
+CSS
+Imagine we have this website which we want to style. We may want all h1 headings to have a certain style, 
+all elements of the class "normalPara" to take another style (e.g. red) and 
+different paragraphs with different ids to adopt yet another style (e.g. one bold, one italic). 
+ HTML tag type selector
+ Class selector
+ Id selector
+A tag type selector allows us to select all the html elements with the specified tag type for styling. The style to be applied is specified in a declaration block enclosed by curly braces.
+Assign CSS properties to a group of elements who has the same value for their class attribute. A class selector starts with a dot e.g. .center selects all html element with a class attribute value of center
+Using an id selector, we assign CSS properties to a particular elements which has the id value. An id selector starts with # notation, for example, #specialNote { color:red; } sets the text color of the paragraph with an id value of specialNote to red as shown in the screen shot below.
+font-family configures the font typeface of the text. 
+
+Start with the font you want, and always end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+
+Example:
+
+p {
+ font-family: "Comic Sans", Georgia, Serif;
+ }
+
+h2 { font-size:150%; } sets the font for heading 2 to 1.5 times of its default size.
+Example:
+
+h1 { 
+
+    font-weight: bold; 
+
+}
+
+h1 { font-style: italic; }
+
+<div>
+<h1 id="top">My Philosophy of Life</h1>
+<p>I would say I am a happy person. Well :) <em>super <strong>OPTIMISTIC</strong></em> in fact!!!</p>
+<hr>
+<img src="https://www.dropbox.com/s/dwonno7yyk1an2y/philosophy.png?raw=1" alt="picture from assetbank" />
+<p>Life is good! Keep smiling bring you million miles of happiness :)</p>
+<p>Positive mindset keep you moving on!!</p>
+<hr>
+</div>
+<div>
+<h2>Rules to keep you HAPPY</h2>
+<ol>
+<li>Free your heart from hatred.</li>
+<li>Free your mind from worries.</li>
+<li>Live simply.</li>
+<li>Give more.</li>
+<li>Expect less.</li>
+</ol>
+</div>
+<div>
+<p><a href="#top">Go Top</a> | <a href="#">Email Me</a></p>
+</div>

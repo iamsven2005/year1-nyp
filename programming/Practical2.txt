@@ -1,0 +1,48 @@
+Q1
+time = input("Total Working Hours:", )
+rate = input("Hourly rate:", )
+salary = float(time) * float(rate)
+print("monthly salary for this month is ", salary)
+Q2
+name = input("Enter your name:", )
+admin = input("Enter admin number:", )
+age = input("Enter age:", )
+gender = input("Enter gender(male/ female):", )
+weight = input("Enter weight(kg):", )
+height = input("Enter height(m):", )
+print( "Hello!",name)
+print( "Your admin no is ",admin, "and age is", age)
+bmi = int(weight)/ int(height) **2
+print( "Your gender is!",gender, "and bmi is",bmi )
+Q3
+a = input("what is your score for test 1:", )
+ap = input("what is percentage for test 2:", )
+b = input("what is your score for test 2:", )
+bp = input("what is percentage for test 2:", )
+c = input("what is your score for test 3:", )
+cp = input("what is percentage for test 3:", )
+final = input("what is your score for exam:", )
+app = int(ap)/100
+bpp = int(bp)/100
+cpp = int(cp)/100
+score1 = int(app) * int(a)
+score2 = int(bpp) * int(b)
+score3 = int(cpp) * int(c)
+score = int(score1) + int(score2) + int(score3)
+final2 = int(score) + (int(final)/2)
+
+
+print("your final mark ", final2)
+Q4
+price = input("enter current price for ABC bank corperation (s$):", )
+commission = 0.40*2000
+commission2 = float(commission)/100
+commission3 = float(commission2)*3
+commission4 = float(price)*2000
+commission5 = float(commission4)/100
+commission6 = float(commission5)*2
+commission7 = float(commission6) + float(commission3)
+print("you paid commission of", commission7)
+profit = float(commission4) - float(commission)
+loss = float(profit)- float(commission7)
+print("you earn", loss)

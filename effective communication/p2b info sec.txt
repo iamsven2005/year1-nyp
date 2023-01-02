@@ -1,0 +1,89 @@
+8
+7
+6
+1
+9
+2
+4
+3
+10
+5
+
+
+123456 – Less than one second to crack, 103M+ uses counted
+123456789 – Less than one second to crack, 46M+ uses counted
+12345 – Less than one second to crack, 32M+ uses counted
+qwerty – Less than one second to crack, 22M+ uses counted
+password – Less than one second to crack, 20M+ uses counted
+12345678 – Less than one second to crack, 14M+ uses counted
+111111 – Less than one second to crack, 13M+ uses counted
+123123 – Less than one second to crack, 10M+ uses counted
+1234567890 – Less than one second to crack, 9.6M+ uses counted
+1234567 – Less than one second to crack, 9.3M uses counted
+
+India
+China
+Brazil
+Pakistan
+Indonesia
+Venezuela
+South Africa
+Philippines
+Romania
+Nigeria
+
+Job scams
+Non-Banking related phishing scam
+e-commerce scams
+investments scams
+loan scams
+banking-related phishing scams 
+social media impersonation scam
+internet love scam
+488900
+
+# 53 MOST-ATTACKED COUNTRY
+# 6 MOST-ATTACKED COUNTRY
+# 1 MOST-ATTACKED COUNTRY
+# 3 MOST-ATTACKED COUNTRY
+Afghanistan
+
+ ($390.80 USD),
+$3000
+$33.50
+£84.50.
+ $15 to $30
+
+Hacked Facebook account - $65
+
+Hacked Instagram account - $45
+
+Hacked Twitter account - $35
+
+Hacked Gmail account - $80
+
+Instagram followers x 1000- $5
+
+Spotify followers x 1000 - $2
+
+Twitch followers x 1000 - $5
+
+LinkedIn company page followers x 1000 - $12
+
+Pinterest followers x 1000 - $4
+
+Soundcloud plays x 1000 - $1
+
+Twitter retweets x 1000 - $25
+
+Instagram likes x 1000- $5
+
+370
+
+A great way to get a long password that’s easy to remember is to use passphrases. At one time, the recommendation was to use complex passwords with random characters and numbers, but those can be hard to remember, confusing, and difficult to type. Passphrases are a series of random words or a sentence that are much easier to remember and type, but still hard for cyber attackers to hack.
+
+1. Keep patches up-to-date by installing them
+weekly or daily, if possible
+2. Shut down unnecessary / unused ports and
+services
+3. Use strong passwords and change them often

@@ -1,0 +1,534 @@
+Practical2
+Q1
+time = input("Total Working Hours:", )
+rate = input("Hourly rate:", )
+salary = float(time) * float(rate)
+print("monthly salary for this month is ", salary)
+Q2
+name = input("Enter your name:", )
+admin = input("Enter admin number:", )
+age = input("Enter age:", )
+gender = input("Enter gender(male/ female):", )
+weight = input("Enter weight(kg):", )
+height = input("Enter height(m):", )
+print( "Hello!",name)
+print( "Your admin no is ",admin, "and age is", age)
+bmi = int(weight)/ int(height) **2
+print( "Your gender is!",gender, "and bmi is",bmi )
+Q3
+a = input("what is your score for test 1:", )
+ap = input("what is percentage for test 2:", )
+b = input("what is your score for test 2:", )
+bp = input("what is percentage for test 2:", )
+c = input("what is your score for test 3:", )
+cp = input("what is percentage for test 3:", )
+final = input("what is your score for exam:", )
+app = int(ap)/100
+bpp = int(bp)/100
+cpp = int(cp)/100
+score1 = int(app) * int(a)
+score2 = int(bpp) * int(b)
+score3 = int(cpp) * int(c)
+score = int(score1) + int(score2) + int(score3)
+final2 = int(score) + (int(final)/2)
+
+
+print("your final mark ", final2)
+Q4
+price = input("enter current price for ABC bank corperation (s$):", )
+commission = 0.40*2000
+commission2 = float(commission)/100
+commission3 = float(commission2)*3
+commission4 = float(price)*2000
+commission5 = float(commission4)/100
+commission6 = float(commission5)*2
+commission7 = float(commission6) + float(commission3)
+print("you paid commission of", commission7)
+profit = float(commission4) - float(commission)
+loss = float(profit)- float(commission7)
+print("you earn", loss)
+
+Practical3
+Q1
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        temp = input("Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : ")
+        degree = int(temp[:-1])
+        i_convention = temp[-1]
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        if i_convention.upper() == "C":
+            result = int(round((9 * degree) / 5 + 32))
+            o_convention = "Fahrenheit"
+        elif i_convention.upper() == "F":
+            result = int(round((degree - 32) * 5 / 9))
+            o_convention = "Celsius"
+        else:
+            print("Input proper convention.")
+            quit()
+        print("The temperature in", o_convention, "is", result, "degrees.")
+Q2
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        value = input("What is the unit cost? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        print("Subtotal:", value)
+        value2 = float(value)/100 * 7
+        print("GST:", value2)
+        value3 = float(value) / 100 * 107
+        print("Total amount:", value3)
+Q3
+def convert(seconds):
+    seconds = seconds % (24 * 3600)
+    hour = seconds // 3600
+    seconds %= 3600
+    minutes = seconds // 60
+    seconds %= 60
+
+    return "%dhour%02dmin%02dsec" % (hour, minutes, seconds)
+
+
+# Driver program
+n = int(input("no:"))
+print(convert(n))
+Q4
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        value = input("What is the income a year? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        value2 = int(value)/12 *0.8 -1500
+        print("$",value2)
+
+Practical4
+
+Q1
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        value = input("What is the score? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        if 50 <= int(value):
+            print("pass")
+Q2
+while True:
+    try:
+        value = input("What is the score? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        if 4<= float(value):
+            print("A")
+        else:
+            if 3 <= float(value):
+                print("B")
+            else:
+                if 4 <= float(value):
+                    print("C")
+                else:
+                    print("D")
+Q3
+while True:
+    try:
+        value = input("What is the age? ")
+        val = input("What is the day?(From 1 to 7,1 being monday)")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        if int(val) >= 6:
+            print("You have to pay $10.00 for the ticket.")
+        else:
+         if int(value) >= 65:
+            print("Enter age: ", value)
+            print("You have to pay $5.50 for the ticket.")
+         else:
+            if int(value) <= 16:
+                print("Enter age: ", value)
+                print("You have to pay $7.50 for the ticket.")
+            else:
+                print("Enter age: ",value)
+                print("You have to pay $10.00 for the ticket.")
+                if int(val) >= 6:
+                    print("You have to pay $10.00 for the ticket.")
+
+Practical5
+
+Q1
+"""
+Program name : P5q1a
+Description : To get an integer from user and sum all
+ numbers from 1 to that number.
+Author : Andrea Tan
+Mentor Grp : <enter your mentor group number>
+Admin No : <enter your admin number>
+Date Created : 23 Jan 2020
+"""
+while True:
+    try:
+        num = int(input("What is the number? "))
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        sum = 0
+        while num > 0:
+            sum += num
+            print(num)
+            num -= 1
+        print(sum,"(1+2+3+4+5+6)")
+
+
+#Write the for loop to start from 1 and end at num
+Q2
+n = input("Enter Number to calculate sum")
+n = int (n)
+sum = 0
+for num in range(0, n+1, 1):
+    sum = sum+num
+print("SUM of first ", n, "numbers is: ", sum )
+Q3
+while True:
+    try:
+        num = int(input("What is the cost? "))
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        if num>0:
+          sum = (num/100) *125
+          print("$",sum)
+        else:
+          print("invald")
+Q4
+a = int(input("Enter the credit for Module 1:"))
+b = int(input("Enter the credit for Module 2:"))
+c = int(input("Enter the credit for Module 3:"))
+d = int(input("Enter the credit for Module 4:"))
+e = int(input("Enter the credit for Module 5:"))
+f = int(input("Enter your GPA for Module 1:"))
+g = int(input("Enter your GPA for Module 2:"))
+h = int(input("Enter your GPA for Module 3:"))
+i = int(input("Enter your GPA for Module 4:"))
+j = int(input("Enter your GPA for Module 5:"))
+tot = f+g+h+i+j
+tota = (a*f) + (b*g) + (c*h) + (d*i) + (e*j)
+sum = float(tota)/float(tot)
+print(sum)
+
+Practical6
+
+Q1
+s = input("enter words")
+hah = 0
+for a in s:
+    if (a.isupper() == True):
+      hah += 1
+
+print(hah)
+if hah >= 2:
+    print(s.upper())
+else:
+    print(s)
+for b in s:
+    print(b)
+
+import re
+sentence = 'wheel of fortune'
+p = re.compile('\w')
+hidden_sentence = p.sub('-', sentence)
+print("Guess the phrase: ",hidden_sentence)
+# While loop to keep asking for letter and
+
+while hidden_sentence != sentence:
+    char = input('Give me a letter: ')
+    index = 0
+    while index < len(sentence):
+        if char == sentence[index]:
+            hidden_sentence= hidden_sentence[:index]+char+hidden_sentence[index+1:]
+        index+=1
+
+    print('Guess the phrase : ', hidden_sentence)
+
+print("Yeah you got it")
+
+Practical7
+
+Q1
+while True:
+    try:
+        a = int(input("What is the number? "))
+        b = int(input("What is the number? "))
+        c = int(input("What is the number? "))
+        d = int(input("What is the number? "))
+        e = int(input("What is the number? "))
+        f = int(input("What is the number? "))
+        g = int(input("What is the number? "))
+        h = int(input("What is the number? "))
+        i = int(input("What is the number? "))
+        j = int(input("What is the number? "))
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        guests = [a, b, c, d, e, f, g, h, i, j]
+        guests.sort()
+        print(min(guests))
+        print(max(guests))
+        print(sum(guests))
+        sum2 = sum(guests)/10
+        print(sum2)
+        print(guests)
+Q2
+a = input("What is the number? ")
+b = input("What is the number? ")
+c = input("What is the number? ")
+d = input("What is the number? ")
+e = input("What is the number? ")
+f = input("What is the number? ")
+g = input("What is the number? ")
+h = input("What is the number? ")
+i = input("What is the number? ")
+j = input("What is the number? ")
+if a =="c":
+         print("correct")
+         a = 1
+else:
+         print("wrong")
+         a = 0
+if b == "d":
+         print("correct")
+         b = 1
+else:
+         print("wrong")
+         b = 0
+if c =="b":
+         print("correct")
+         c = 1
+else:
+         print("wrong")
+         c = 0
+if d =="a":
+        print("correct")
+        d = 1
+else:
+        print("wrong")
+        d = 0
+if e =="b":
+        print("correct")
+        e = 1
+else:
+        print("wrong")
+        e = 0
+if f =="d":
+        print("correct")
+        f = 1
+else:
+        print("wrong")
+        f = 0
+if g =="a":
+        print("correct")
+        g = 1
+else:
+         print("wrong")
+         g = 0
+if h =="c":
+        print("correct")
+        h = 1
+else:
+        print("wrong")
+        h = 0
+if i =="d":
+        print("correct")
+        i = 1
+else:
+        print("wrong")
+        i = 0
+if j =="c":
+        print("correct")
+        j = 1
+else:
+    print("wrong")
+    j = 0
+Correct = [a, b, c, d, e, f, g, h, i, j]
+scorrect = int(sum(Correct))
+print("correct answers:", scorrect)
+print("incorrect", 10-scorrect)
+
+if int(scorrect) == 10:
+     print("full marks!")
+
+
+else:
+     print("try again")
+Q3
+A = ['Jane', 75]
+B = ['John', 60]
+C = ['Jerome', 81]
+print(A[0],":", A[1])
+print(B[0],":", B[1])
+print(C[0],":", C[1])
+d = input("Enter student name:")
+if d == "John":
+    print("Results for English:", 60)
+elif d == "Jerome":
+    print("Results for English:", 81)
+elif d == "Jane":
+    print("Results for English:", 75)
+else:
+    print("INVALID")
+Q4
+A = ['Jane', 75, 80, 85]
+B = ['John', 60, 68, 74]
+C = ['Jerome', 81, 63, 77]
+D = ['Jason', 55, 76, 67]
+E = ['Jessica', 62, 45, 68]
+F = ['Joanne', 52, 47, 51]
+
+d = input("Enter student name:")
+if d == "John":
+    print("Results for English = ", 60)
+    print("Results for Math = ", 68)
+    print("Results for Science = ", 74)
+elif d == "Jerome":
+    print("Results for English = ", 81)
+    print("Results for Math = ", 63)
+    print("Results for Science = ", 77)
+elif d == "Jane":
+    print("Results for English = ", 75)
+    print("Results for Math = ", 80)
+    print("Results for Science = ", 85)
+elif d == "Jason":
+    print("Results for English = ", 55)
+    print("Results for Math = ", 76)
+    print("Results for Science = ", 67)
+elif d == "Jessica":
+    print("Results for English = ", 62)
+    print("Results for Math = ", 45)
+    print("Results for Science = ", 68)
+elif d == "Joanne":
+    print("Results for English = ", 52)
+    print("Results for Math = ", 47)
+    print("Results for Science = ", 51)
+elif d == "Average John":
+    print((B[1]+B[2]+B[3])/3)
+elif d == "Average Jerome":
+    print((C[1]+C[2]+C[3])/3)
+elif d == "Average Jane":
+    print((A[1]+A[2]+A[3])/3)
+elif d == "Average Jason":
+    print((D[1]+D[2]+D[3])/3)
+elif d == "Average Jessica":
+    print((E[1]+E[2]+E[3])/3)
+elif d == "Average Joanne":
+    print((F[1]+F[2]+F[3])/3)
+elif d == "Average English":
+    print((A[1] + B[1] + C[1] + D[1] + E[1] + F[1]) / 6)
+elif d == "Average Math":
+    print((A[2] + B[2] + C[2] + D[2] + E[2] + F[2]) / 6)
+elif d == "Average Science":
+    print((A[3] + B[3] + C[3] + D[3] + E[3] + F[3]) / 6)
+else:
+    print("INVALID")
+
+Practical8
+
+Q1
+def is_valid_nric(s):
+  if ((s[0] == 'S') or (s[0] == 'T') or (s[0] == 's') or (s[0] == 't')):
+    if ((s[8] == 'a') or (s[8] == 'i') or (s[8] == 'A') or (s[8] == 'I')):
+
+     return True
+    else:
+     return False
+  else:
+    return False
+# Test your function
+print(is_valid_nric('t2323213t'))
+print(is_valid_nric('s12323232'))
+print(is_valid_nric(' s '))
+Q2
+a = input(" SGD to Country:")
+b = int(input("Value:"))
+if a == "US":
+    c = b*0.72
+    print(c)
+elif a == "Japan":
+    c = b * 93.66
+    print(c)
+elif a == "Europe":
+    c = b * 0.68
+    print(c)
+else: "Sorry, no conversion"
+Q3
+while guess != x and tries < 100:
+    tries= tries + 1
+    guess= int(input("What is your guess? "))
+
+    if guess > x:
+        print("Sorry your guess was too high.")
+    if guess < x:
+        print("Sorry your guess was too low.")
+    if guess == x:
+        print("Congrats, you are a winner!!")
+
+if guess == x:
+    print(" You won")
+    print("your score:", 100-tries)
+
+
+if guess != x:
+    print("Sorry, you lose!! The number was",x)
+Q4
+import random
+score = 0
+while True:
+
+
+    user_action = input("Enter a choice (rock, paper, scissors): ")
+    possible_actions = ["rock", "paper", "scissors"]
+    computer_action = random.choice(possible_actions)
+    print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+
+    if user_action == computer_action:
+        print(f"Both players selected {user_action}. It's a tie!")
+    elif user_action == "rock":
+        if computer_action == "scissors":
+            print("Rock smashes scissors! You win!")
+        else:
+            print("Paper covers rock! You lose.")
+    elif user_action == "paper":
+        if computer_action == "rock":
+            print("Paper covers rock! You win!")
+        else:
+            print("Scissors cuts paper! You lose.")
+    elif user_action == "scissors":
+        if computer_action == "paper":
+            print("Scissors cuts paper! You win!")
+            score += 1
+        else:
+            print("Rock smashes scissors! You lose.")
+            score -= 1
+    print("score", score)
+
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() != "y":
+        break

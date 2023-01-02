@@ -1,0 +1,14 @@
+Q1
+s = input("enter words")
+hah = 0
+for a in s:
+    if (a.isupper() == True):
+      hah += 1
+
+print(hah)
+if hah >= 2:
+    print(s.upper())
+else:
+    print(s)
+for b in s:
+    print(b)

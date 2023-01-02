@@ -1,0 +1,18 @@
+import re
+sentence = 'wheel of fortune'
+p = re.compile('\w')
+hidden_sentence = p.sub('-', sentence)
+print("Guess the phrase: ",hidden_sentence)
+# While loop to keep asking for letter and
+
+while hidden_sentence != sentence:
+    char = input('Give me a letter: ')
+    index = 0
+    while index < len(sentence):
+        if char == sentence[index]:
+            hidden_sentence= hidden_sentence[:index]+char+hidden_sentence[index+1:]
+        index+=1
+
+    print('Guess the phrase : ', hidden_sentence)
+
+print("Yeah you got it")

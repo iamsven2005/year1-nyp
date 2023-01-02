@@ -1,0 +1,61 @@
+Q1
+"""
+Program name : P5q1a
+Description : To get an integer from user and sum all
+ numbers from 1 to that number.
+Author : Andrea Tan
+Mentor Grp : <enter your mentor group number>
+Admin No : <enter your admin number>
+Date Created : 23 Jan 2020
+"""
+while True:
+    try:
+        num = int(input("What is the number? "))
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        sum = 0
+        while num > 0:
+            sum += num
+            print(num)
+            num -= 1
+        print(sum,"(1+2+3+4+5+6)")
+
+
+#Write the for loop to start from 1 and end at num
+Q2
+n = input("Enter Number to calculate sum")
+n = int (n)
+sum = 0
+for num in range(0, n+1, 1):
+    sum = sum+num
+print("SUM of first ", n, "numbers is: ", sum )
+Q3
+while True:
+    try:
+        num = int(input("What is the cost? "))
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        continue
+    else:
+        if num>0:
+          sum = (num/100) *125
+          print("$",sum)
+        else:
+          print("invald")
+Q4
+a = int(input("Enter the credit for Module 1:"))
+b = int(input("Enter the credit for Module 2:"))
+c = int(input("Enter the credit for Module 3:"))
+d = int(input("Enter the credit for Module 4:"))
+e = int(input("Enter the credit for Module 5:"))
+f = int(input("Enter your GPA for Module 1:"))
+g = int(input("Enter your GPA for Module 2:"))
+h = int(input("Enter your GPA for Module 3:"))
+i = int(input("Enter your GPA for Module 4:"))
+j = int(input("Enter your GPA for Module 5:"))
+tot = f+g+h+i+j
+tota = (a*f) + (b*g) + (c*h) + (d*i) + (e*j)
+sum = float(tota)/float(tot)
+print(sum)

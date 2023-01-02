@@ -1,0 +1,81 @@
+Q1
+def is_valid_nric(s):
+  if ((s[0] == 'S') or (s[0] == 'T') or (s[0] == 's') or (s[0] == 't')):
+    if ((s[8] == 'a') or (s[8] == 'i') or (s[8] == 'A') or (s[8] == 'I')):
+
+     return True
+    else:
+     return False
+  else:
+    return False
+# Test your function
+print(is_valid_nric('t2323213t'))
+print(is_valid_nric('s12323232'))
+print(is_valid_nric(' s '))
+Q2
+a = input(" SGD to Country:")
+b = int(input("Value:"))
+if a == "US":
+    c = b*0.72
+    print(c)
+elif a == "Japan":
+    c = b * 93.66
+    print(c)
+elif a == "Europe":
+    c = b * 0.68
+    print(c)
+else: "Sorry, no conversion"
+Q3
+while guess != x and tries < 100:
+    tries= tries + 1
+    guess= int(input("What is your guess? "))
+
+    if guess > x:
+        print("Sorry your guess was too high.")
+    if guess < x:
+        print("Sorry your guess was too low.")
+    if guess == x:
+        print("Congrats, you are a winner!!")
+
+if guess == x:
+    print(" You won")
+    print("your score:", 100-tries)
+
+
+if guess != x:
+    print("Sorry, you lose!! The number was",x)
+Q4
+import random
+score = 0
+while True:
+
+
+    user_action = input("Enter a choice (rock, paper, scissors): ")
+    possible_actions = ["rock", "paper", "scissors"]
+    computer_action = random.choice(possible_actions)
+    print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+
+    if user_action == computer_action:
+        print(f"Both players selected {user_action}. It's a tie!")
+    elif user_action == "rock":
+        if computer_action == "scissors":
+            print("Rock smashes scissors! You win!")
+        else:
+            print("Paper covers rock! You lose.")
+    elif user_action == "paper":
+        if computer_action == "rock":
+            print("Paper covers rock! You win!")
+        else:
+            print("Scissors cuts paper! You lose.")
+    elif user_action == "scissors":
+        if computer_action == "paper":
+            print("Scissors cuts paper! You win!")
+            score += 1
+        else:
+            print("Rock smashes scissors! You lose.")
+            score -= 1
+    print("score", score)
+
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() != "y":
+        break

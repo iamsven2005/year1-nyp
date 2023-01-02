@@ -1,0 +1,61 @@
+Syntax Error
+–
+Syntax errors are mistakes in the way that the code is written. Common syntax errors include spelling mistakes, incorrect use of punctuation and wrong indentation.
+
+Runtime Error
+–
+Runtime errors cause the program or computer to crash even if it appears to be nothing wrong with the program code. Running out of memory or wrong type conversion will often cause a runtime error.
+
+Semantic (Logic) Error
+–
+Semantic errors, or logic errors, happen when the program produces different results from what we have expected. Program with semantic errors will execute without any errors being reported.
+Logic errors can be the hardest to track down. Everything looks like it is working; you have just programmed the computer to do the wrong thing. Technically the program is correct, but the results won’t be what you expected.
+Some programming languages require a compilation step. Compilation is where your high-level language converts into a lower-level language that the computer can understand better. A compilation or compile-time error happens when the compiler doesn’t know how to turn your code into the lower-level code.
+An arithmetic error is a type of logic error but involves mathematics. A typical example when performing a division equation is that you cannot divide by zero without causing an issue. Very few people would write 5 / 0, but you might not think that the size of something in your system might sometimes be zero, which would lead to this type of error
+The computer that your program is on will allocate a fixed amount of resources to the running of it. If something in your code forces the computer to try and allocate more resources than it has, it can create a resource error.
+Interface errors occur when there is a disconnect between how you meant your program to be used and how it is actually used. Most things in software follow standards. If input your program receives doesn’t conform to the standards, you might get an interface error.
+x = 3 * 2
+y = x ** 2
+print(y)
+y % 5
+print(y)
+
+36
+36
+
+x = 3 * 2
+y = x ** 2
+print(y)
+y = y % 5
+print(y)
+
+36
+1
+
+x = 10 / 4
+y = 10 // 4
+print(x)
+print(y)
+
+2.5
+2
+
+>>> print(12)
+12
+
+>>> print(1.23)
+1.23
+
+>>> print(‘Hello World’)
+Hello World
+
+>>> print (“Hello Earth”)
+Hello Earth
+
+>>> x = 1
+>>> print(x)
+1
+
+>>> x = 99
+>>> print(x)
+99

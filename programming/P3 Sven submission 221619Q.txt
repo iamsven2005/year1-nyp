@@ -1,0 +1,63 @@
+Q1
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        temp = input("Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : ")
+        degree = int(temp[:-1])
+        i_convention = temp[-1]
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        if i_convention.upper() == "C":
+            result = int(round((9 * degree) / 5 + 32))
+            o_convention = "Fahrenheit"
+        elif i_convention.upper() == "F":
+            result = int(round((degree - 32) * 5 / 9))
+            o_convention = "Celsius"
+        else:
+            print("Input proper convention.")
+            quit()
+        print("The temperature in", o_convention, "is", result, "degrees.")
+Q2
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        value = input("What is the unit cost? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        print("Subtotal:", value)
+        value2 = float(value)/100 * 7
+        print("GST:", value2)
+        value3 = float(value) / 100 * 107
+        print("Total amount:", value3)
+Q3
+def convert(seconds):
+    seconds = seconds % (24 * 3600)
+    hour = seconds // 3600
+    seconds %= 3600
+    minutes = seconds // 60
+    seconds %= 60
+
+    return "%dhour%02dmin%02dsec" % (hour, minutes, seconds)
+
+
+# Driver program
+n = int(input("no:"))
+print(convert(n))
+Q4
+while True:
+    try:
+        # Note: Python 2.x users should use raw_input, the equivalent of 3.x's input
+        value = input("What is the income a year? ")
+    except ValueError:
+        print("Sorry, I didn't understand that.")
+        #better try again... Return to the start of the loop
+        continue
+    else:
+        value2 = int(value)/12 *0.8 -1500
+        print("$",value2)

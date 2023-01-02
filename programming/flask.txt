@@ -1,0 +1,49 @@
+https://www.youtube.com/watch?v=Qr4QMBUPxWo
+https://github.com/jimdevops19/FlaskSeries
+install db browser for sqllite
+install sqlalchemy
+install flask db
+pip install flask_bcrypt
+pip install flask_login
+mkdir FlaskMarket make file
+cd FlaskMarket    set command type
+set FLASK_APP=market.py        set file
+set FLASK_DEBUG=1 set debug on
+cls               clear page
+flask --version   version
+(flask run) = (python run.py)        (run file)
+from flask import Flask
+
+python run.py 
+python (python)
+URI- uniform resource identifier
+end block allows for cross page reference
+
+>>>python
+>>>from market import db (imports the data base)
+>>>db.create_all()      (creats database)
+>>>from market import Item (new list in db)
+>>>Item.query.all()        (ask for added item)
+>>>db.session.add(item1)   (add item)
+>>>db.session.commit()     (confirm)
+
+inside file:
+>>>Item.query.filter_by() (look for value)
+>>>for item in Item.query.filter_by(price=500):
+...item.name (name of item worth 500)
+>>>db.drop_all()           (remove db stuff)
+>>>db.create_all()          (new db made)
+>>>from market.models import User,Item (new file location)
+>>>import os                (take stuff from os)
+>>>os.system('cls')         (clear from python)
+>>>db.session.add(u1)       (add user)
+>>>User.query.all()         (check for user)
+>>>Item.query.all()         (check for item)
+>>>db.session.rollback()    (item allow)
+>>>os.urandom(12).hex()     (random no)
+>>>exit()                   (exit)
+ i1 =Item(name='Iphone 10', description='description', barcode='12345', price=800)
+ i2 =Item(name='Iphone 1', description='descriptions', barcode='123456', price=1800)
+ Item1.owner = User.query.filter_by(username='jsc').first().id
+pip install wtforms
+http://127.0.0.1:5000 server no.(inter port)
